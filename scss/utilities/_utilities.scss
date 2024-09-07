@@ -1,0 +1,6 @@
+@use '../abstracts/variables' as *;
+
+// Color
+.bg-light {
+background-color: $light;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>JLW Aviation</title>
+</head>
+
+<body>
+
+  <div class="layout-default">
+
+    <header class="header">
+      <img class="header__logo" src="images/logo.svg" alt="JLW Aviation logo">
+    </header>
+
+    <main>
+      
+      <!-- Hero -->
+      <div class="home-hero">
+        <div class="home-hero__bg-image-col">img</div>
+        <div class="home-hero__text-col">
+          <div class="home-hero__text-container">
+            <h1 class="home-hero__heading">Contract Pilot Service</h1>
+            <p class="home-hero__text">With years of experience operating the Citation XLS+, JLW Aviation will ensure
+              your flight is safe, efficient, and enjoyable. Whether you require a captain or co-pilot for your business
+              or personal travel needs, you can trust us to deliver exceptional results.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact form and contact info -->
+       <div class="home-container-2-col-stack">
+        <div class="home-container-2-col-stack__col">
+          <div class="container-fluid">
+            <h2>Send A Message</h2>
+            <form class="home-contact-form" id="fs-frm" action="https://formspree.io/f/xzbqaovd" method="POST">
+              <label class="home-contact-form__label" for="emailInput">Email:</label>
+              <input class="home-contact-form__input" type="email" name="email" id="emailInput" required>
+              <label class="home-contact-form__label" for="messageInput">Message:</label>
+              <textarea class="home-contact-form__textarea" name="message" id="messageInput" required></textarea>
+              <button class="home-contact-form__button" id="fs-frm-button">Send Message</button>
+              <p class="home-contact-form__status" id="fs-frm-status"></p>
+            </form>
+          </div>
+        </div>
+        <div class="home-container-2-col-stack__col">
+          <div class="container-fluid">
+            <h2>Contact</h2>
+            <span class="home-contact-title">Phone</span>
+            <span class="home-contact-text">503-708-6217</span>
+            <span class="home-contact-title">Fax</span>
+            <span class="home-contact-text">503-868-2144</span>
+            <span class="home-contact-title">Location</span>
+            <span class="home-contact-text">Located near Portland International Airport (PDX).</span>
+          </div>
+        </div>
+       </div>
+
+    </main>
+
+    <footer class="footer">
+      <span class="footer__text"><small>Copyright © 2024 JLW Aviation LLC. All rights reserved.</small></span>
+    </footer>
+  </div>
+
+</body>
+
+</html>
