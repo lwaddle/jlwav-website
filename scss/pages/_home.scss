@@ -38,7 +38,7 @@
   &__text-container {
     padding: 10px;
     display: flex;
-    max-width: 440px;
+    max-width: 480px;
     flex-wrap: wrap;
 
     @media (max-width: $laptop) {
@@ -55,7 +55,7 @@
 .home-container-2-col-stack {
   display: grid;
   max-width: $container-max-width;
-  margin: 0 auto;
+  margin: 80px auto 0 auto;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
 

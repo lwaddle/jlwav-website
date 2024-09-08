@@ -1,0 +1,16 @@
+@use '../abstracts/variables' as *;
+
+.button {
+  padding: 14px 36px;
+  color: $button-text-color;
+  background-color: $button-color;
+  border: 0;
+  text-transform: uppercase;
+  font-size: medium;
+  // font-weight: 400;
+  letter-spacing: 0.5px;
+
+  &:hover {
+    background-color: $button-color-hover;
+  }
+}
