@@ -1,5 +1,6 @@
 @use '../abstracts/variables' as *;
 
+// Hero section
 .home-hero {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -7,6 +8,7 @@
 
   &__bg-image-col {
     grid-column: span 1;
+    max-height: 650px;
     height: 48vw;
     background-image: url('/images/panel.jpg');
     background-position: center;
@@ -49,9 +51,7 @@
   &__text {}
 }
 
-
-
-
+// Container for contact form/contact info section
 .home-container-2-col-stack {
   display: grid;
   max-width: $container-max-width;
@@ -68,10 +68,7 @@
   }
 }
 
-
-
-
-
+// Contact info classes
 .home-contact-title {
   display: block;
   font-weight: bold
@@ -79,11 +76,11 @@
 
 .home-contact-text {
   display: block;
+  margin-bottom: 30px;
 }
 
-
+// Contact form
 .home-contact-form {
-
   &__label {
     display: block;
   }
@@ -91,11 +88,14 @@
   &__input {
     width: 100%;
     box-sizing: border-box;
+    padding: 10px 4px;
+    border: 1px solid;
+    border-color: gray;
+    margin-bottom: 16px;
   }
 
   &__textarea {
-    width: 100%;
-    box-sizing: border-box;
+    @extend .home-contact-form__input;
     min-height: 200px;
   }
 }

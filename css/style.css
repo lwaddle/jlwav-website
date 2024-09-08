@@ -370,6 +370,7 @@ template {
 }
 .home-hero__bg-image-col {
   grid-column: span 1;
+  max-height: 650px;
   height: 48vw;
   background-image: url("/images/panel.jpg");
   background-position: center;
@@ -430,18 +431,21 @@ template {
 
 .home-contact-text {
   display: block;
+  margin-bottom: 30px;
 }
 
 .home-contact-form__label {
   display: block;
 }
-.home-contact-form__input {
+.home-contact-form__input, .home-contact-form__textarea {
   width: 100%;
   box-sizing: border-box;
+  padding: 10px 4px;
+  border: 1px solid;
+  border-color: gray;
+  margin-bottom: 16px;
 }
 .home-contact-form__textarea {
-  width: 100%;
-  box-sizing: border-box;
   min-height: 200px;
 }
 
