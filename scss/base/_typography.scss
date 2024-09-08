@@ -30,3 +30,20 @@ h2 {
     font-size: 1.35em;
   }
 }
+
+a {
+  color: $primary-color-text;
+  text-decoration: none;
+
+  &:hover {
+    color: $primary;
+  }
+
+  &:active {
+    color: $primary-color-text;
+  }
+
+  &:visited {
+    color: $primary-color-text;
+  }
+}
