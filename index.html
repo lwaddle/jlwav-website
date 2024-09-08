@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="css/style.min.css">
   <title>JLW Aviation</title>
 </head>
 
@@ -38,7 +44,7 @@
             <h2>Send A Message</h2>
             <form class="home-contact-form" id="fs-frm" action="https://formspree.io/f/xzbqaovd" method="POST">
               <label class="home-contact-form__label" for="emailInput">Email:</label>
-              <input class="home-contact-form__input" type="email" name="email" id="emailInput" required>
+              <input class="home-contact-form__input" type="email" name="email" id="emailInput" autocomplete="email" required>
               <label class="home-contact-form__label" for="messageInput">Message:</label>
               <textarea class="home-contact-form__textarea" name="message" id="messageInput" required></textarea>
               <button class="home-contact-form__button button" id="fs-frm-button">Send Message</button>
