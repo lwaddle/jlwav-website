@@ -11,3 +11,9 @@ background-color: $light;
     text-decoration: underline;
   }
 }
+
+.overflow-wrap--break-word {
+  a {
+    overflow-wrap: break-word;
+  }
+}
