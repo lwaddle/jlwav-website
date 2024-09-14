@@ -10,7 +10,8 @@
     grid-column: span 1;
     max-height: 650px;
     height: 48vw;
-    background-image: url('/images/panel.jpg');
+    background-image: url('/images/panel.jpg'); // Fallback
+    background-image: url('/images/panel.webp');
     background-position: center;
     background-size: cover;
 
